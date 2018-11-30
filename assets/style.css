@@ -75,7 +75,9 @@ footer {
 	background-color: #666666;
 	height: 50px;
 	margin-top: auto;
-	position: relative;
+	position: relative;	
+	display: flex;
+	flex: 0 0 50px;	
 }
 
 p#card {
@@ -98,12 +100,17 @@ p#card {
 }
 
 .portfolio .card {
+	position: relative;
 	float: left;
 	margin: 0px 0px 20px 20px;
 	background-color: white;
-	display: table;	
-	left: 0px;
-	position: relative;
+	display: flex;
+    flex: 1 0 0;
+    flex-direction: column;
+}
+
+.portfolio .card:hover {
+	box-shadow: 0px 0px 8px 0px #000000;
 }
 
 .portfolio hr {
@@ -128,4 +135,30 @@ p#card {
 	position: relative;
 	width: 300px;
 	height: 300px;		
+}
+
+.footerContainer {
+    background-color: #efefef;
+    flex: 0 0 50px;
+    margin-top: auto;
+
+}
+
+.footerLine {
+    width: 100%;
+    height: 15px;
+    margin: 0px;
+    background-color: #4aaaa5;
+}
+
+.footer {
+    margin: 0px;
+    width: 100%;
+    height: 50px;
+	background-color: #666666;
+} 
+.form-group {
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;	
 }
