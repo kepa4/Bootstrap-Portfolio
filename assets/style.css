@@ -1,0 +1,131 @@
+body {
+	background-color: #e7e7e7;
+	margin: 0px;
+}
+
+.navbar-light .navbar-header {
+	color: white;
+	padding: 10px;
+	margin: 0;
+	background-color: #4aaaa5;
+}
+
+.bg-light {
+	padding: 0;
+}
+
+* h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.navbar {
+	box-shadow: 0px 0px 8px 0px #000000;
+}
+
+.content {
+	margin: 20px 5em;
+	background-color: white;
+	position: relative;
+}
+
+.content h2 {
+	background-color: white;
+	font-size: 32px;
+	padding: 10px 20px;
+	color: #4aaaa5;
+	margin: 0px;
+}
+
+* h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.content hr {
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 1px;
+	background-color: #666666;
+	margin-top: 0px;
+}
+
+.content p {
+	background-color: white;
+	font-size: 20px;
+	padding: 0px 0px 10px 0px;
+}
+
+.content p#aboutme {
+	margin: 20px;
+}
+
+.content img {
+	float: left;
+}
+
+.content img#aboutme {
+	float: left;
+	margin: 0px 20px;
+	margin-bottom: 10px;
+}
+
+footer {
+	border-top: 10px solid #4aaaa5;
+	width: 100%;
+	background-color: #666666;
+	height: 50px;
+	margin-top: auto;
+	position: relative;
+}
+
+p#card {
+	padding: 0px;
+	background-color: #4aaaa5;
+	margin: .5em 0em;
+	font-size: 20px;
+}
+
+.card-body {
+	padding: 0px;
+	text-align: center;
+	background-color: #4aaaa5;
+	color: white;
+}
+
+.portfolio {
+	margin: 20px 5em;
+	position: relative;
+}
+
+.portfolio .card {
+	float: left;
+	margin: 0px 0px 20px 20px;
+	background-color: white;
+	display: table;	
+	left: 0px;
+	position: relative;
+}
+
+.portfolio hr {
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 1px;
+	position: relative;
+	background-color: #666666;
+	margin-top: 0px;
+}
+
+.portfolio h2 {
+	font-size: 32px;
+	padding: 10px 20px;
+	color: #4aaaa5;
+	margin: 0px;
+	position: relative;
+}
+
+.portfolio .card img {
+	position: relative;
+	width: 300px;
+	height: 300px;		
+}
